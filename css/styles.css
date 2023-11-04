@@ -645,8 +645,8 @@ font-size: inherit;
     z-index: 99999999;
     top: 0;
     left: 0;
-    width: 100%;
     height: 100%;
+    width: 100%;
     background-color: rgba(46, 47, 66, 0.4); 
     visibility: hidden;
     pointer-events: none;
@@ -753,6 +753,7 @@ font-size: inherit;
 
 .review-form-input-wrapper{
     position: relative;
+    margin-bottom: 16px;
 }
 
 .review-form-fild:focus{
@@ -872,8 +873,9 @@ color: var(--IRIS, #4D5AE5);
     fill:  #F4F4FD;
 }
 
-.review-form-checkbox:checked{
+.review-form-checkbox:checked .review-form-own-checkbox:{
     border: none; 
+    fill:  #F4F4FD;
 }
 
 .review-form-button{
