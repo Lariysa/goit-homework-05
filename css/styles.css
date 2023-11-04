@@ -31,11 +31,12 @@ button {
     cursor: pointer;
 }
 
+
 body{
     font-family:'Roboto', sans-serif;
     color: var(--SLATE, #434455);
     background-color: #FFFFFF;
-    max-width: 1440px
+    max-width: 1440px;
 }
 
 .visually-hidden {
@@ -258,6 +259,7 @@ body{
         border: 1px solid var(--LIGHT-SLATE, #8E8F99);
         background: var(--CLOUD, #F4F4FD);
     }
+
     .icon-svg {
         display: flex; 
         flex-shrink: 0;
@@ -456,7 +458,6 @@ body{
         top: 332px;
         padding: 0px, 16px, 0px, 16px;
         gap: 8px;
-
     }
       
     .portfolio-list:hover .overlay-text{
@@ -628,13 +629,10 @@ font-size: inherit;
     stroke: #F4F4FD;
 }
 
-.subscribe-form:focus 
-{
+.subscribe-form-input:hover{
     fill: #4D5AE5;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-
 
 /* BACKDROP STYLES */
    
