@@ -36,7 +36,7 @@ body{
     font-family:'Roboto', sans-serif;
     color: var(--SLATE, #434455);
     background-color: #FFFFFF;
-    max-width: 1440px;
+
 }
 
 .visually-hidden {
@@ -707,8 +707,8 @@ font-size: inherit;
     border: none; 
 } 
 
-.modal-close-button-icon:hover,
-.modal-close-button-icon:focus{
+.modal-close-button:hover .modal-close-button-icon,
+.modal-close-button:focus .modal-close-button-icon{
     fill: #FFFFFF;
 }
 
@@ -742,7 +742,7 @@ font-size: inherit;
 }
 
 .review-form-fild-wrapper{
-     margin-bottom: 16px; 
+     margin-bottom: 8px; 
 }
 
 .review-form-fild-icon{
